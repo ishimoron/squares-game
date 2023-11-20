@@ -1,0 +1,58 @@
+.hoverTitle {
+  font-weight: 600;
+}
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(5, 70px);
+  margin-top: 2rem;
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #000;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.squareWhite {
+  background-color: white;
+}
+
+.squareBlue {
+  background: #03a8f4;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.historyElement {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  color: #896d3a;
+  font-weight: 600;
+  border: 1px solid;
+  border-radius: 4px;
+  background: #fbf8e3;
+}
+
+.historyContainer {
+  margin-left: 5rem;
+}
+
+.panel {
+  display: flex;
+}
+
+.gameBtn {
+  margin-left: 0.5rem;
+}
+
+.gameContainer {
+  width: 350px;
+}
